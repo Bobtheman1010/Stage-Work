@@ -12,17 +12,27 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Axis" Type="Folder">
-			<Item Name="Fine SIM Motion Controller.lvclass" Type="LVClass" URL="../Axis Objects/SIM Axis/Fine SIM Motion Controller.lvclass"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="iMotion Controller.lvclass" Type="LVClass" URL="../Axis Objects/iMotion Controller/iMotion Controller.lvclass"/>
 			<Item Name="Parent SIM Motion Controller.lvclass" Type="LVClass" URL="../Axis Objects/Motion Controller/Parent SIM Motion Controller.lvclass"/>
+			<Item Name="Fine SIM Motion Controller.lvclass" Type="LVClass" URL="../Axis Objects/SIM Axis/Fine SIM Motion Controller.lvclass"/>
 		</Item>
 		<Item Name="FrameWork" Type="Folder">
 			<Item Name="Base.lvclass" Type="LVClass" URL="../Framework/Base/Base.lvclass"/>
+			<Item Name="Create Class.vim" Type="VI" URL="../Framework/Create Class.vim"/>
 			<Item Name="Dynamic Load.lvclass" Type="LVClass" URL="../Framework/Dynamic Load/Dynamic Load.lvclass"/>
 			<Item Name="Get Obj.vim" Type="VI" URL="../Framework/Get Obj.vim"/>
 			<Item Name="Read Configs Sections.lvlib" Type="Library" URL="../Framework/Read Configs/Read Configs Sections.lvlib"/>
-			<Item Name="Read Write Config Data.lvlib" Type="Library" URL="../Framework/Read Write Config Data/Read Write Config Data.lvlib"/>
+			<Item Name="Read Write Class Config Data.lvlib" Type="Library" URL="../Framework/Read Write Config Data/Read Write Class Config Data.lvlib"/>
 		</Item>
+		<Item Name="2-Axis Stage Actions.lvclass" Type="LVClass" URL="../2-Axis Stage/2-Axis Stage Actions.lvclass"/>
+		<Item Name="2-Axis Stage API.lvclass" Type="LVClass" URL="../2-Axis Stage API/2-Axis Stage API.lvclass"/>
+		<Item Name="2-Axis Stage Status.lvclass" Type="LVClass" URL="../2-Axis Stage Status/2-Axis Stage Status.lvclass"/>
+		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+		<Item Name="View.vi" Type="VI" URL="../View.vi"/>
+		<Item Name="XY Stage Controller.lvclass" Type="LVClass" URL="../XY Stage Controller/XY Stage Controller.lvclass"/>
+		<Item Name="XY Stage Data Class.lvclass" Type="LVClass" URL="../XY Stage Data Class/XY Stage Data Class.lvclass"/>
+		<Item Name="XY Stage Process.lvlib" Type="Library" URL="../XY Stage Process/XY Stage Process/XY Stage Process.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
@@ -76,17 +86,35 @@
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
+				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
+				<Item Name="Monitor Data.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitor Data/Monitor Data.lvclass"/>
+				<Item Name="Monitored Actor.lvlib" Type="Library" URL="/&lt;vilib&gt;/MGI/Monitored Actor/Monitored Actor.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
+				<Item Name="Single String To Qualified Name Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Single String To Qualified Name Array.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
+				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
