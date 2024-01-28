@@ -4,6 +4,12 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Home Stage Msg.lvclass" Type="LVClass" URL="../XY Stage Process Messages/Home Stage Msg/Home Stage Msg.lvclass"/>
+		<Item Name="Move Stage Msg.lvclass" Type="LVClass" URL="../XY Stage Process Messages/Move Stage Msg/Move Stage Msg.lvclass"/>
+		<Item Name="Set Acceleration Msg.lvclass" Type="LVClass" URL="../XY Stage Process Messages/Set Acceleration Msg/Set Acceleration Msg.lvclass"/>
+		<Item Name="Set Stage Speed Msg.lvclass" Type="LVClass" URL="../XY Stage Process Messages/Set Stage Speed Msg/Set Stage Speed Msg.lvclass"/>
+		<Item Name="Stop Motion Msg.lvclass" Type="LVClass" URL="../XY Stage Process Messages/Stop Motion Msg/Stop Motion Msg.lvclass"/>
+	</Item>
 	<Item Name="XY Stage Process.lvclass" Type="LVClass" URL="../XY Stage Process/XY Stage Process.lvclass"/>
 </Library>
