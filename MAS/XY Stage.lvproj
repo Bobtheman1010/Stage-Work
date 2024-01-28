@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="22308000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -25,14 +26,22 @@
 			<Item Name="Read Configs Sections.lvlib" Type="Library" URL="../Framework/Read Configs/Read Configs Sections.lvlib"/>
 			<Item Name="Read Write Class Config Data.lvlib" Type="Library" URL="../Framework/Read Write Config Data/Read Write Class Config Data.lvlib"/>
 		</Item>
-		<Item Name="2-Axis Stage Actions.lvclass" Type="LVClass" URL="../2-Axis Stage/2-Axis Stage Actions.lvclass"/>
-		<Item Name="2-Axis Stage API.lvclass" Type="LVClass" URL="../2-Axis Stage API/2-Axis Stage API.lvclass"/>
-		<Item Name="2-Axis Stage Status.lvclass" Type="LVClass" URL="../2-Axis Stage Status/2-Axis Stage Status.lvclass"/>
+		<Item Name="Process" Type="Folder">
+			<Item Name="Interlock Q Class.lvclass" Type="LVClass" URL="../Interlock Q Class/Interlock Q Class.lvclass"/>
+			<Item Name="Process State Data.lvclass" Type="LVClass" URL="../Process State Data/Process State Data.lvclass"/>
+		</Item>
+		<Item Name="Stage Interfaces" Type="Folder">
+			<Item Name="2-Axis Stage Actions.lvclass" Type="LVClass" URL="../2-Axis Stage/2-Axis Stage Actions.lvclass"/>
+			<Item Name="2-Axis Stage Status.lvclass" Type="LVClass" URL="../2-Axis Stage Status/2-Axis Stage Status.lvclass"/>
+			<Item Name="2-Axis Stage API.lvclass" Type="LVClass" URL="../2-Axis Stage API/2-Axis Stage API.lvclass"/>
+		</Item>
+		<Item Name="XY Stage Proccess" Type="Folder">
+			<Item Name="XY Stage Controller.lvclass" Type="LVClass" URL="../XY Stage Controller/XY Stage Controller.lvclass"/>
+			<Item Name="XY Stage Data Class.lvclass" Type="LVClass" URL="../XY Stage Data Class/XY Stage Data Class.lvclass"/>
+			<Item Name="XY Stage Process.lvlib" Type="Library" URL="../XY Stage Process/XY Stage Process/XY Stage Process.lvlib"/>
+		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 		<Item Name="View.vi" Type="VI" URL="../View.vi"/>
-		<Item Name="XY Stage Controller.lvclass" Type="LVClass" URL="../XY Stage Controller/XY Stage Controller.lvclass"/>
-		<Item Name="XY Stage Data Class.lvclass" Type="LVClass" URL="../XY Stage Data Class/XY Stage Data Class.lvclass"/>
-		<Item Name="XY Stage Process.lvlib" Type="Library" URL="../XY Stage Process/XY Stage Process/XY Stage Process.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
