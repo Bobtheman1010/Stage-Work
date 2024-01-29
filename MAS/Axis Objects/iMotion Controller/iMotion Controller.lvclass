@@ -15,15 +15,26 @@
 	<Item Name="Parent Libraries" Type="Parent Libraries">
 		<Item Name="Dynamic Load.lvclass" Type="Parent" URL="../../../Framework/Dynamic Load/Dynamic Load.lvclass"/>
 	</Item>
-	<Item Name="Properties" Type="Folder">
-		<Item Name="Get Acceleration.vi" Type="VI" URL="../Get Acceleration.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!".!#A!-17.D:7RF=G&amp;U;7^O!!!_1(!!(A!!("JJ47^U;7^O)%.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!!&amp;GF.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!"Q;;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!"6J47^U;7^O)%.P&lt;H2S&lt;WRM:8)A;7Y!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+	<Item Name="Motion Parameters" Type="Folder">
+		<Item Name="Acceleration" Type="Folder">
+			<Item Name="Get Acceleration.vi" Type="VI" URL="../Get Acceleration.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!".!#A!-17.D:7RF=G&amp;U;7^O!!!_1(!!(A!!("JJ47^U;7^O)%.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!!&amp;GF.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!"Q;;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!"6J47^U;7^O)%.P&lt;H2S&lt;WRM:8)A;7Y!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+			</Item>
+			<Item Name="Set Acceleration.vi" Type="VI" URL="../Set Acceleration.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!='GF.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!!!7;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!41!I!$%&amp;D9W6M:8*B&gt;'FP&lt;A!!0%"Q!"Y!!"Q;;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!"6J47^U;7^O)%.P&lt;H2S&lt;WRM:8)A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!*!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+			</Item>
 		</Item>
 		<Item Name="Get Axis Name.vi" Type="VI" URL="../Get Axis Name.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"*!-0````]*18BJ=S"/97VF!$Z!=!!?!!!='GF.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!!!7;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!]1(!!(A!!("JJ47^U;7^O)%.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!!&amp;7F.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=C"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!E!!!!!</Property>
@@ -34,17 +45,17 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 		</Item>
-		<Item Name="Get Speed.vi" Type="VI" URL="../Get Speed.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!+18BJ=S"4='6F:!!!0E"Q!"Y!!"Q;;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!":J47^U;7^O)%.P&lt;H2S&lt;WRM:8)A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$R!=!!?!!!='GF.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!!!6;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
+		<Item Name="Get Current Speed.vi" Type="VI" URL="../Get Current Speed.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!".!#A!.1X6S=G6O&gt;#"4='6F:!!_1(!!(A!!("JJ47^U;7^O)%.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!!&amp;GF.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=C"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!"Q;;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!"6J47^U;7^O)%.P&lt;H2S&lt;WRM:8)A;7Y!6!$Q!!Q!!Q!%!!5!"A!%!!1!"!!%!!=!"!!%!!A#!!"Y!!!.#!!!!!!!!!E!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
 		</Item>
-		<Item Name="Set Acceleration.vi" Type="VI" URL="../Set Acceleration.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;+!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!='GF.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!!!7;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!41!I!$%&amp;D9W6M:8*B&gt;'FP&lt;A!!0%"Q!"Y!!"Q;;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!"6J47^U;7^O)%.P&lt;H2S&lt;WRM:8)A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!(!!A#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!#!!!!*!!!!!!!1!*!!!!!!</Property>
+		<Item Name="Get Speed.vi" Type="VI" URL="../Get Speed.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&amp;!#A!+18BJ=S"4='6F:!!!0E"Q!"Y!!"Q;;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!":J47^U;7^O)%.P&lt;H2S&lt;WRM:8)A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$R!=!!?!!!='GF.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!!!6;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
@@ -61,6 +72,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
 		</Item>
+	</Item>
+	<Item Name="Abort Motion.vi" Type="VI" URL="../Abort Motion.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%X!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!='GF.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!!!7;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!]1(!!(A!!("JJ47^U;7^O)%.P&lt;H2S&lt;WRM:8)O&lt;(:D&lt;'&amp;T=Q!!&amp;7F.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=C"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 	<Item Name="Get Current Position.vi" Type="VI" URL="../Get Current Position.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;/!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"&gt;!#A!11X6S=G6O&gt;#"1&lt;X.J&gt;'FP&lt;A!!0E"Q!"Y!!"Q;;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S,GRW9WRB=X-!!":J47^U;7^O)%.P&lt;H2S&lt;WRM:8)A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$R!=!!?!!!='GF.&lt;X2J&lt;WYA1W^O&gt;(*P&lt;'RF=CZM&gt;G.M98.T!!!6;5VP&gt;'FP&lt;C"$&lt;WZU=G^M&lt;'6S)'FO!&amp;1!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!"!!)!A!!?!!!$1A!!!!!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!#1!!!!!!%!#1!!!!!</Property>
