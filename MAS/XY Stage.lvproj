@@ -15,6 +15,7 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="iMotion Controller.lvclass" Type="LVClass" URL="../Axis Objects/iMotion Controller/iMotion Controller.lvclass"/>
 			<Item Name="FINE SIM Motion Axis.lvclass" Type="LVClass" URL="../Axis Objects/Motion Controller/FINE SIM Motion Axis.lvclass"/>
+			<Item Name="Course SIM Motion Axis.lvclass" Type="LVClass" URL="../Course SIM Motion Axis/Course SIM Motion Axis.lvclass"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Item Name="Base.lvclass" Type="LVClass" URL="../Framework/Base/Base.lvclass"/>
