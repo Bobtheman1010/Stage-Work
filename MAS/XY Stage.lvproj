@@ -2,7 +2,6 @@
 <Project Type="Project" LVVersion="22308000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -15,34 +14,34 @@
 		<Item Name="Axis" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="iMotion Controller.lvclass" Type="LVClass" URL="../Axis Objects/iMotion Controller/iMotion Controller.lvclass"/>
-			<Item Name="Parent SIM Motion Controller.lvclass" Type="LVClass" URL="../Axis Objects/Motion Controller/Parent SIM Motion Controller.lvclass"/>
-			<Item Name="Fine SIM Motion Controller.lvclass" Type="LVClass" URL="../Axis Objects/SIM Axis/Fine SIM Motion Controller.lvclass"/>
+			<Item Name="FINE SIM Motion Axis.lvclass" Type="LVClass" URL="../Axis Objects/Motion Controller/FINE SIM Motion Axis.lvclass"/>
 		</Item>
-		<Item Name="FrameWork" Type="Folder">
+		<Item Name="Framework" Type="Folder">
 			<Item Name="Base.lvclass" Type="LVClass" URL="../Framework/Base/Base.lvclass"/>
-			<Item Name="Create Class.vim" Type="VI" URL="../Framework/Create Class.vim"/>
 			<Item Name="Dynamic Load.lvclass" Type="LVClass" URL="../Framework/Dynamic Load/Dynamic Load.lvclass"/>
-			<Item Name="Get Obj.vim" Type="VI" URL="../Framework/Get Obj.vim"/>
+			<Item Name="Load Classes.lvlib" Type="Library" URL="../Framework/Load Classes.lvlib"/>
 			<Item Name="Read Configs Sections.lvlib" Type="Library" URL="../Framework/Read Configs/Read Configs Sections.lvlib"/>
 			<Item Name="Read Write Class Config Data.lvlib" Type="Library" URL="../Framework/Read Write Config Data/Read Write Class Config Data.lvlib"/>
 		</Item>
 		<Item Name="Process Framework" Type="Folder">
-			<Item Name="Interlock Q Class.lvclass" Type="LVClass" URL="../Interlock Q Class/Interlock Q Class.lvclass"/>
-			<Item Name="Process State Data.lvclass" Type="LVClass" URL="../Process State Data/Process State Data.lvclass"/>
+			<Item Name="Interlock Q Class.lvclass" Type="LVClass" URL="../Process Framework/Interlock Q Class/Interlock Q Class.lvclass"/>
+			<Item Name="Process State Data.lvclass" Type="LVClass" URL="../Process Framework/Process State Data/Process State Data.lvclass"/>
 		</Item>
-		<Item Name="Stage Interfaces" Type="Folder">
-			<Item Name="2-Axis Stage Actions.lvclass" Type="LVClass" URL="../2-Axis Stage/2-Axis Stage Actions.lvclass"/>
-			<Item Name="2-Axis Stage Status.lvclass" Type="LVClass" URL="../2-Axis Stage Status/2-Axis Stage Status.lvclass"/>
-			<Item Name="2-Axis Stage Async API.lvclass" Type="LVClass" URL="../2-Axis Stage API/2-Axis Stage Async API.lvclass"/>
-			<Item Name="Async Coms.lvclass" Type="LVClass" URL="../Async Coms/Async Coms.lvclass"/>
+		<Item Name="View" Type="Folder">
+			<Item Name="View.lvlib" Type="Library" URL="../View/View.lvlib"/>
 		</Item>
-		<Item Name="XY Stage Proccess" Type="Folder">
-			<Item Name="XY Stage Controller.lvclass" Type="LVClass" URL="../XY Stage Controller/XY Stage Controller.lvclass"/>
-			<Item Name="XY Stage Data Class.lvclass" Type="LVClass" URL="../XY Stage Data Class/XY Stage Data Class.lvclass"/>
-			<Item Name="XY Stage Process.lvlib" Type="Library" URL="../XY Stage Process/XY Stage Process/XY Stage Process.lvlib"/>
+		<Item Name="XY Controller" Type="Folder">
+			<Item Name="XY Stage Controller.lvclass" Type="LVClass" URL="../XY Controller/XY Stage Controller/XY Stage Controller.lvclass"/>
+			<Item Name="XY Stage Data Class.lvclass" Type="LVClass" URL="../XY Controller/XY Stage Data Class/XY Stage Data Class.lvclass"/>
+			<Item Name="XY Stage Process.lvlib" Type="Library" URL="../XY Controller/XY Stage Process/XY Stage Process/XY Stage Process.lvlib"/>
+		</Item>
+		<Item Name="XY stage Interfaces" Type="Folder">
+			<Item Name="2-Axis Stage Actions.lvclass" Type="LVClass" URL="../Interfaces/2-Axis Stage/2-Axis Stage Actions.lvclass"/>
+			<Item Name="2-Axis Stage Async API.lvclass" Type="LVClass" URL="../Interfaces/2-Axis Stage API/2-Axis Stage Async API.lvclass"/>
+			<Item Name="2-Axis Stage Status.lvclass" Type="LVClass" URL="../Interfaces/2-Axis Stage Status/2-Axis Stage Status.lvclass"/>
+			<Item Name="Async Coms.lvclass" Type="LVClass" URL="../Interfaces/Async Coms/Async Coms.lvclass"/>
 		</Item>
 		<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
-		<Item Name="View.vi" Type="VI" URL="../View.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
