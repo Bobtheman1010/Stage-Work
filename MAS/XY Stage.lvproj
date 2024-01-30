@@ -24,12 +24,18 @@
 			<Item Name="Read Configs Sections.lvlib" Type="Library" URL="../Framework/Read Configs/Read Configs Sections.lvlib"/>
 			<Item Name="Read Write Class Config Data.lvlib" Type="Library" URL="../Framework/Read Write Config Data/Read Write Class Config Data.lvlib"/>
 		</Item>
+		<Item Name="JKI UI" Type="Folder">
+			<Item Name="Interfaces" Type="Folder">
+				<Item Name="Syncronus 2-Axis Stage.lvclass" Type="LVClass" URL="../JKI State Machine/Syncronus 2-Axis Stage/Syncronus 2-Axis Stage.lvclass"/>
+			</Item>
+			<Item Name="Sync 2-Axis Stage Controller.lvclass" Type="LVClass" URL="../JKI State Machine/Syncronus/Sync 2-Axis Stage Controller.lvclass"/>
+		</Item>
 		<Item Name="Process Framework" Type="Folder">
 			<Item Name="Interlock Q Class.lvclass" Type="LVClass" URL="../Process Framework/Interlock Q Class/Interlock Q Class.lvclass"/>
 			<Item Name="Process State Data.lvclass" Type="LVClass" URL="../Process Framework/Process State Data/Process State Data.lvclass"/>
 		</Item>
 		<Item Name="View" Type="Folder">
-			<Item Name="View.lvlib" Type="Library" URL="../View/View.lvlib"/>
+			<Item Name="Controls.lvlib" Type="Library" URL="../View/Controls.lvlib"/>
 		</Item>
 		<Item Name="XY Controller" Type="Folder">
 			<Item Name="XY Stage Controller.lvclass" Type="LVClass" URL="../XY Controller/XY Stage Controller/XY Stage Controller.lvclass"/>
