@@ -1,7 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="22308000">
 	<Property Name="NI.Lib.Icon" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*,!!!*Q(C=\:7\M6J"$):`0!Z)#:X&gt;9=9TTB5\IQ6;5!OEB,3A&amp;OC!I1%(;I%7;!&amp;`+X4RY4['R(@MY/Y?H=?PF@3RO\.)V?&lt;36VU?N1../BS?H[L/;WF8`V$P`2XQ\+_!ON]O4@SX^*J%4`*XM5FWX=8`K68!,\1\`\D?^F^&gt;\]@8:&amp;R[Z,PRL`Q0GD\&lt;:`OX&lt;@NQEX\YHJVJ(%299I%Z:BKF,IG?[)G?[)G?[)%?[)%?[)%?[)\O[)\O[)\O[):O[):O[):O[.82B3ZUI9/5&amp;%]+*5G4"-FA5*4=%J[%*_&amp;*?0B5QJ0Q*$Q*4],$%#5]#5`#E`!E0)1JY5FY%J[%*_%B6:&amp;E&gt;82Y%B\3+_!*?!+?A#@AI;1#HA!A+"9E$J+!I=!:P!1]!5`!Q[M#HI!HY!FY!B\=#HA#HI!HY!FY#+F:C;):(2U?UMDB=8A=(I@(Y3'V("[(R_&amp;R?"Q?SMHB=8A=#+?AERQ%/5(/!/@$Y8&amp;Y?-DB=8A=(I@(Y=&amp;6+_1V-Y.G&gt;(2Y$"[$R_!R?!Q?5MDA-8A-(I0(Y#'N$"[$R_!R?!Q?3MHA-8A-(A0%+%JZ'=G-1'/1)2A]8,6&lt;L&amp;9JCM3K3\VZV:N3P&gt;H5GUC^/&gt;3,LFZ-^3+J*V]^K?L*5E_#_M?JI&gt;5Q[C,KY$&amp;1:_YH\)DNM2WWQ&gt;&lt;9#FNCCR([FQ??TW?&gt;4C=&gt;DU@N^XPN&gt;DNN.BONVWON6CMNFUMN&amp;IP&lt;-@"%PRU)VX.JS`ML_`9,_T(&lt;@O@Z=]ZT0POA`^,`Y'T5&amp;UXT-E?`!@RYZYE!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>

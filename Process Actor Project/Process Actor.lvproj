@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="22308000">
+<Project Type="Project" LVVersion="24008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -12,13 +12,17 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Axis Objects" Type="Folder">
+			<Item Name="Axis Factory" Type="Folder">
+				<Item Name="Axis Factory.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Axis Factory/Axis Factory.lvclass"/>
+				<Item Name="Create Course Class.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Create Course Class/Create Course Class.lvclass"/>
+				<Item Name="Create Fine Class.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Fine SIM AXIS Factory/Create Fine Class.lvclass"/>
+			</Item>
 			<Item Name="Course SIM Motion Axis.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Course SIM Motion Axis/Course SIM Motion Axis.lvclass"/>
 			<Item Name="FINE SIM Motion Axis.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Motion Controller/FINE SIM Motion Axis.lvclass"/>
 			<Item Name="iMotion Controller.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/iMotion Controller/iMotion Controller.lvclass"/>
 		</Item>
 		<Item Name="Framework" Type="Folder">
 			<Item Name="Base.lvclass" Type="LVClass" URL="../../XY Stage/Framework/Base/Base.lvclass"/>
-			<Item Name="Dynamic Load.lvclass" Type="LVClass" URL="../../XY Stage/Framework/Dynamic Load/Dynamic Load.lvclass"/>
 			<Item Name="Load Classes.lvlib" Type="Library" URL="../../XY Stage/Framework/Load Classes.lvlib"/>
 			<Item Name="Read Configs Sections.lvlib" Type="Library" URL="../../XY Stage/Framework/Read Configs/Read Configs Sections.lvlib"/>
 			<Item Name="Read Write Class Config Data.lvlib" Type="Library" URL="../../XY Stage/Framework/Read Write Config Data/Read Write Class Config Data.lvlib"/>

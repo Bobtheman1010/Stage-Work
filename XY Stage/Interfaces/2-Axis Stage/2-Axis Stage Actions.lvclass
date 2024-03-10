@@ -1,7 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="22308000">
 	<Property Name="NI.Lib.Icon" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*R!!!*Q(C=\:5^=B."%%9`+!+ID81$3E&gt;Q(Q%F.A&amp;&amp;I*#UL[$5I4B#"VR!';1[A;HG#,K#$E#SP*FNL724B2.=%(BG?TX\4@]]T5S.J&gt;Z?3[]U0N;'VP$O.D1\@QX$.+`B^/Y_:WG9YS?J0SVY5O&lt;Z?&lt;+HHJQOZH5P`E(^\N*?$8;MY@2U`IPP^ESP=2LVG"L?G[_%1[X"&lt;`($&amp;$+/J_TD=+Z[]JTD`^$UX*\&lt;PWWXDR\3*T_T,^1O)CSRQ"QTN6*DIC&gt;[IC&gt;[IC&gt;[I!&gt;[I!&gt;[I!?[ITO[ITO[ITO[I2O[I2O[I2N[\_B#&amp;\L115K+*Y73J%G#R"E5*;_%*_&amp;*?")?0J8Q*$Q*4]+4]/#CB#@B38A3HI3(-#5]#5`#E`!E0+4K*.E\/DQ*$_E6]!1]!5`!%`"15A&amp;0!"!5#R)(3="1-"E-!J[!*_"BK)!HY!FY!J[!BWE&amp;0!&amp;0Q"0Q"$S%^&amp;7*4N-[/DSEE=0D]$A]$I`$1WIZ0![0Q_0Q/$S5E]0D]$A14E%H/1BSABQ(Z]0B=8DY)Y@(Y8&amp;Y("[(B[G_1^Z8JN'UDA[0Q70Q'$Q'D]&amp;$#BE]"I`"9`!90+36Q70Q'$Q'D]&amp;$+2E]"I`"9Y!923EP)ZE2;$A:AM($UU_,^6W+4G+^3X6Y69&gt;3&gt;&gt;B5BUBV/&amp;3&lt;LNJ-V3;J&amp;F_VK+L&amp;5CW#[M?JI&amp;5QKC+KY/;I)_]$NM&gt;WW"&lt;&lt;9'NMB3WR21P^SY\(YV'(QU(\`6[\X5\&lt;\6;&lt;T5&lt;L^6KLV5L,Z6+,R7+_"N\3ZQNBOJ&gt;O'4_ULV_O0HS\@P`R_ZO&lt;(T_P&lt;^\&gt;@&lt;\[^%4`3`_$OV%P&gt;:G8.@I&amp;P&gt;"V/Q!!!!!</Property>
-	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.LVClass.ClassNameVisibleInProbe" Type="Bool">true</Property>
