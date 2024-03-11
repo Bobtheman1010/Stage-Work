@@ -5,6 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages" Type="Folder">
+		<Item Name="Save Image Msg.lvclass" Type="LVClass" URL="../../Camera Process Messages/Save Image Msg/Save Image Msg.lvclass"/>
 		<Item Name="Snap Image Msg.lvclass" Type="LVClass" URL="../../Camera Process Messages/Snap Image Msg/Snap Image Msg.lvclass"/>
 	</Item>
 	<Item Name="Camera Process.lvclass" Type="LVClass" URL="../../Camera Process/Camera Process.lvclass"/>
