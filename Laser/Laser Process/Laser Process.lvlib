@@ -8,6 +8,7 @@
 		<Item Name="Set Power Msg.lvclass" Type="LVClass" URL="../Laser Process Messages/Set Power Msg/Set Power Msg.lvclass"/>
 		<Item Name="Start Laser Msg.lvclass" Type="LVClass" URL="../Laser Process Messages/Start Laser Msg/Start Laser Msg.lvclass"/>
 		<Item Name="Stop Laser Msg.lvclass" Type="LVClass" URL="../Laser Process Messages/Stop Laser Msg/Stop Laser Msg.lvclass"/>
+		<Item Name="Warm Laser Msg.lvclass" Type="LVClass" URL="../Laser Process Messages/Warm Laser Msg/Warm Laser Msg.lvclass"/>
 	</Item>
 	<Item Name="Laser Process.lvclass" Type="LVClass" URL="../Laser Process/Laser Process.lvclass"/>
 </Library>
