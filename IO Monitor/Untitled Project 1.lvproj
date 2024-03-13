@@ -24,8 +24,18 @@
 		<Item Name="Driver" Type="Folder">
 			<Item Name="AI Driver.lvclass" Type="LVClass" URL="../AI Driver/AI Driver.lvclass"/>
 			<Item Name="SIM AI Driver.lvclass" Type="LVClass" URL="../SIM AI Driver/SIM AI Driver.lvclass"/>
+			<Item Name="AI Daq Data.lvlib" Type="Library" URL="../DAQ Data/AI Daq Data.lvlib"/>
+		</Item>
+		<Item Name="Controller" Type="Folder">
+			<Item Name="DAQ Process.lvlib" Type="Library" URL="../DAQ Actor/DAQ Process.lvlib"/>
+			<Item Name="DAQ Controller.lvclass" Type="LVClass" URL="../DAQ Controller/DAQ Controller.lvclass"/>
+			<Item Name="DAQ Data.lvclass" Type="LVClass" URL="../DAQ Data/DAQ Data.lvclass"/>
 		</Item>
 		<Item Name="IO Monitor Tester.vi" Type="VI" URL="../IO Monitor Tester.vi"/>
+		<Item Name="Aquire Data.lvclass" Type="LVClass" URL="../Aquire Data/Aquire Data.lvclass"/>
+		<Item Name="Get Daq Status.lvclass" Type="LVClass" URL="../Get Daq Status/Get Daq Status.lvclass"/>
+		<Item Name="DAQ API.lvclass" Type="LVClass" URL="../DAQ API/DAQ API.lvclass"/>
+		<Item Name="DAQ View.lvclass" Type="LVClass" URL="../Class 3/DAQ View.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="String to 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/String to 1D Array__ogtk.vi"/>
@@ -63,6 +73,7 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Interlock Q Class.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/Process Framework/Interlock Q Class/Interlock Q Class.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
