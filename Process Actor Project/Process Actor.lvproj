@@ -11,40 +11,50 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Axis Objects" Type="Folder">
-			<Item Name="Axis Factory" Type="Folder">
-				<Item Name="Axis Factory.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Axis Factory/Axis Factory.lvclass"/>
-				<Item Name="Create Course Class.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Create Course Class/Create Course Class.lvclass"/>
-				<Item Name="Create Fine Class.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Fine SIM AXIS Factory/Create Fine Class.lvclass"/>
+		<Item Name="Recipe" Type="Folder">
+			<Item Name="Controller" Type="Folder">
+				<Item Name="Recipe Controller.lvclass" Type="LVClass" URL="../Recipe Controller/Recipe Controller.lvclass"/>
+				<Item Name="Recipe Process.lvlib" Type="Library" URL="../Recipe Process/Recipe Process.lvlib"/>
 			</Item>
-			<Item Name="Course SIM Motion Axis.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Course SIM Motion Axis/Course SIM Motion Axis.lvclass"/>
-			<Item Name="FINE SIM Motion Axis.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Motion Controller/FINE SIM Motion Axis.lvclass"/>
-			<Item Name="iMotion Controller.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/iMotion Controller/iMotion Controller.lvclass"/>
 		</Item>
-		<Item Name="Framework" Type="Folder">
-			<Item Name="Base.lvclass" Type="LVClass" URL="../../XY Stage/Framework/Base/Base.lvclass"/>
-			<Item Name="Load Classes.lvlib" Type="Library" URL="../../XY Stage/Framework/Load Classes.lvlib"/>
-			<Item Name="Read Configs Sections.lvlib" Type="Library" URL="../../XY Stage/Framework/Read Configs/Read Configs Sections.lvlib"/>
-			<Item Name="Read Write Class Config Data.lvlib" Type="Library" URL="../../XY Stage/Framework/Read Write Config Data/Read Write Class Config Data.lvlib"/>
-		</Item>
-		<Item Name="Proccess Actor" Type="Folder">
-			<Item Name="Interlock Q Class.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/Process Framework/Interlock Q Class/Interlock Q Class.lvclass"/>
-			<Item Name="Process State Data.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/Process Framework/Process State Data/Process State Data.lvclass"/>
-		</Item>
-		<Item Name="XY Controller" Type="Folder">
-			<Item Name="XY Stage Controller.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/XY Controller/XY Stage Controller/XY Stage Controller.lvclass"/>
-			<Item Name="XY Stage Data Class.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/XY Controller/XY Stage Data Class/XY Stage Data Class.lvclass"/>
-			<Item Name="XY Stage Process.lvlib" Type="Library" URL="../../XY Stage/Process Actor/XY Controller/XY Stage Process/XY Stage Process/XY Stage Process.lvlib"/>
-		</Item>
-		<Item Name="XY Stage Interfaces" Type="Folder">
-			<Item Name="2-Axis Async Home.lvclass" Type="LVClass" URL="../../XY Stage/Interfaces/2-Axis Async Home/2-Axis Async Home.lvclass"/>
-			<Item Name="2-Axis Stage Actions.lvclass" Type="LVClass" URL="../../XY Stage/Interfaces/2-Axis Stage/2-Axis Stage Actions.lvclass"/>
-			<Item Name="2-Axis Stage Async API.lvclass" Type="LVClass" URL="../../XY Stage/Interfaces/2-Axis Stage API/2-Axis Stage Async API.lvclass"/>
-			<Item Name="2-Axis Stage Status.lvclass" Type="LVClass" URL="../../XY Stage/Interfaces/2-Axis Stage Status/2-Axis Stage Status.lvclass"/>
-			<Item Name="Async Coms.lvclass" Type="LVClass" URL="../../XY Stage/Interfaces/Async Coms/Async Coms.lvclass"/>
+		<Item Name="Xy Stage" Type="Folder">
+			<Item Name="Axis Objects" Type="Folder">
+				<Item Name="Axis Factory" Type="Folder">
+					<Item Name="Axis Factory.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Axis Factory/Axis Factory.lvclass"/>
+					<Item Name="Create Course Class.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Create Course Class/Create Course Class.lvclass"/>
+					<Item Name="Create Fine Class.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Fine SIM AXIS Factory/Create Fine Class.lvclass"/>
+				</Item>
+				<Item Name="Course SIM Motion Axis.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Course SIM Motion Axis/Course SIM Motion Axis.lvclass"/>
+				<Item Name="FINE SIM Motion Axis.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/Motion Controller/FINE SIM Motion Axis.lvclass"/>
+				<Item Name="iMotion Controller.lvclass" Type="LVClass" URL="../../XY Stage/Axis Objects/iMotion Controller/iMotion Controller.lvclass"/>
+			</Item>
+			<Item Name="Framework" Type="Folder">
+				<Item Name="Base.lvclass" Type="LVClass" URL="../../XY Stage/Framework/Base/Base.lvclass"/>
+				<Item Name="Load Classes.lvlib" Type="Library" URL="../../XY Stage/Framework/Load Classes.lvlib"/>
+				<Item Name="Read Configs Sections.lvlib" Type="Library" URL="../../XY Stage/Framework/Read Configs/Read Configs Sections.lvlib"/>
+				<Item Name="Read Write Class Config Data.lvlib" Type="Library" URL="../../XY Stage/Framework/Read Write Config Data/Read Write Class Config Data.lvlib"/>
+			</Item>
+			<Item Name="Proccess Actor" Type="Folder">
+				<Item Name="Interlock Q Class.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/Process Framework/Interlock Q Class/Interlock Q Class.lvclass"/>
+				<Item Name="Process State Data.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/Process Framework/Process State Data/Process State Data.lvclass"/>
+			</Item>
+			<Item Name="XY Controller" Type="Folder">
+				<Item Name="XY Stage Controller.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/XY Controller/XY Stage Controller/XY Stage Controller.lvclass"/>
+				<Item Name="XY Stage Data Class.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/XY Controller/XY Stage Data Class/XY Stage Data Class.lvclass"/>
+				<Item Name="XY Stage Process.lvlib" Type="Library" URL="../../XY Stage/Process Actor/XY Controller/XY Stage Process/XY Stage Process/XY Stage Process.lvlib"/>
+			</Item>
+			<Item Name="XY Stage Interfaces" Type="Folder">
+				<Item Name="2-Axis Async Home.lvclass" Type="LVClass" URL="../../XY Stage/Interfaces/2-Axis Async Home/2-Axis Async Home.lvclass"/>
+				<Item Name="2-Axis Stage Actions.lvclass" Type="LVClass" URL="../../XY Stage/Interfaces/2-Axis Stage/2-Axis Stage Actions.lvclass"/>
+				<Item Name="2-Axis Stage Async API.lvclass" Type="LVClass" URL="../../XY Stage/Interfaces/2-Axis Stage API/2-Axis Stage Async API.lvclass"/>
+				<Item Name="2-Axis Stage Status.lvclass" Type="LVClass" URL="../../XY Stage/Interfaces/2-Axis Stage Status/2-Axis Stage Status.lvclass"/>
+				<Item Name="Async Coms.lvclass" Type="LVClass" URL="../../XY Stage/Interfaces/Async Coms/Async Coms.lvclass"/>
+			</Item>
 		</Item>
 		<Item Name="Control.lvlib" Type="Library" URL="../../XY Stage/Process Actor/View/Control.lvlib"/>
 		<Item Name="Launcher_Process Actor.vi" Type="VI" URL="../Launcher_Process Actor.vi"/>
+		<Item Name="Prep HW Components.vi" Type="VI" URL="../Prep HW Components.vi"/>
+		<Item Name="Recipe Comps.ctl" Type="VI" URL="../Recipe Comps.ctl"/>
 		<Item Name="XY Stage.ini" Type="Document" URL="../../XY Stage/XY Stage.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -140,7 +150,12 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="abstract camera driver factory.lvclass" Type="LVClass" URL="../../Camera/Driver Factories/abstract camera factory/abstract camera driver factory.lvclass"/>
+			<Item Name="abstract IO Factory.lvclass" Type="LVClass" URL="../../IO Monitor/abstract IO Factory/abstract IO Factory.lvclass"/>
+			<Item Name="abstract laser driver factory.lvclass" Type="LVClass" URL="../../Laser/abstract laser driver factory/abstract laser driver factory.lvclass"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="AI Daq Data.lvlib" Type="Library" URL="../../IO Monitor/DAQ Data/AI Daq Data.lvlib"/>
+			<Item Name="AI Driver.lvclass" Type="LVClass" URL="../../IO Monitor/AI Driver/AI Driver.lvclass"/>
+			<Item Name="Aquire Data.lvclass" Type="LVClass" URL="../../IO Monitor/Aquire Data/Aquire Data.lvclass"/>
 			<Item Name="base view.lvclass" Type="LVClass" URL="../../iView/base view/base view.lvclass"/>
 			<Item Name="Cam Process.lvlib" Type="Library" URL="../../Camera/Camera Controller/Cam Process.lvlib"/>
 			<Item Name="Camera API.lvclass" Type="LVClass" URL="../../Camera/Camera API/Camera API.lvclass"/>
@@ -149,7 +164,21 @@
 			<Item Name="Camera Data.lvclass" Type="LVClass" URL="../../Camera/Camera Data/Camera Data.lvclass"/>
 			<Item Name="Camera Driver.lvclass" Type="LVClass" URL="../../Camera/Camera Driver/Camera Driver.lvclass"/>
 			<Item Name="Camera View.lvclass" Type="LVClass" URL="../../Camera/Camera View/Camera View.lvclass"/>
+			<Item Name="DAQ API.lvclass" Type="LVClass" URL="../../IO Monitor/DAQ API/DAQ API.lvclass"/>
+			<Item Name="DAQ Controller.lvclass" Type="LVClass" URL="../../IO Monitor/DAQ Controller/DAQ Controller.lvclass"/>
+			<Item Name="DAQ Data.lvclass" Type="LVClass" URL="../../IO Monitor/DAQ Data/DAQ Data.lvclass"/>
+			<Item Name="DAQ Process.lvlib" Type="Library" URL="../../IO Monitor/DAQ Actor/DAQ Process.lvlib"/>
+			<Item Name="DAQ View.lvclass" Type="LVClass" URL="../../IO Monitor/Class 3/DAQ View.lvclass"/>
+			<Item Name="Get Daq Status.lvclass" Type="LVClass" URL="../../IO Monitor/Get Daq Status/Get Daq Status.lvclass"/>
+			<Item Name="Get Laser Status.lvclass" Type="LVClass" URL="../../Laser/Get Laser Status/Get Laser Status.lvclass"/>
 			<Item Name="iView.lvclass" Type="LVClass" URL="../../iView/iView/iView.lvclass"/>
+			<Item Name="Laser API.lvclass" Type="LVClass" URL="../../Laser/Laser Controller api/Laser API.lvclass"/>
+			<Item Name="Laser Controller.lvclass" Type="LVClass" URL="../../Laser/Laser Controller/Laser Controller.lvclass"/>
+			<Item Name="Laser Driver.lvclass" Type="LVClass" URL="../../Laser/Laser Driver/Laser Driver.lvclass"/>
+			<Item Name="Laser Process.lvlib" Type="Library" URL="../../Laser/Laser Process/Laser Process.lvlib"/>
+			<Item Name="Laser State Data.lvclass" Type="LVClass" URL="../../Laser/Laser State Data/Laser State Data.lvclass"/>
+			<Item Name="Laser View.lvclass" Type="LVClass" URL="../../Laser/Laser View/Laser View.lvclass"/>
+			<Item Name="Laser.lvclass" Type="LVClass" URL="../../Laser/Laser API/Laser.lvclass"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
