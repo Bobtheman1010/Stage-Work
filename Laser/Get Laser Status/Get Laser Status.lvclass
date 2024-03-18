@@ -11,6 +11,15 @@
 
 </Property>
 	<Item Name="Read Laser State.vi" Type="VI" URL="../Read Laser State.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'2!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!')!]?)6C:A!!!!#'%RB=W6S)&amp;.U982F)%2B&gt;'%O&lt;(:D&lt;'&amp;T=Q^-98.F=C"4&gt;'&amp;U:3ZD&gt;'Q!-5!7!!1%372M:1&gt;898*N;7ZH"6*F972Z"E:J=GFO:Q!,4'&amp;T:8)A5X2B&gt;'5!/E"Q!"Y!!"I92W6U)%RB=W6S)&amp;.U982V=SZM&gt;G.M98.T!!!52W6U)%RB=W6S)&amp;.U982V=S"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!"I92W6U)%RB=W6S)&amp;.U982V=SZM&gt;G.M98.T!!!42W6U)%RB=W6S)&amp;.U982V=S"J&lt;A"5!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!E!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+	</Item>
+	<Item Name="Read Laser Status.vi" Type="VI" URL="../Read Laser Status.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)D#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'%&gt;F&gt;#"-98.F=C"4&gt;'&amp;U&gt;8-O&lt;(:D&lt;'&amp;T=Q!!&amp;%&gt;F&gt;#"-98.F=C"4&gt;'&amp;U&gt;8-A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!;'%&gt;F&gt;#"-98.F=C"4&gt;'&amp;U&gt;8-O&lt;(:D&lt;'&amp;T=Q!!%U&gt;F&gt;#"-98.F=C"4&gt;'&amp;U&gt;8-A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=#!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

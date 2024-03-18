@@ -4,6 +4,9 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">573603840</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Messages for this Actor" Type="Folder"/>
+	<Item Name="Messages for this Actor" Type="Folder">
+		<Item Name="Abort Recipe Msg.lvclass" Type="LVClass" URL="../Recipe Process Messages/Abort Recipe Msg/Abort Recipe Msg.lvclass"/>
+		<Item Name="Start Recipe Msg.lvclass" Type="LVClass" URL="../Recipe Process Messages/Start Recipe Msg/Start Recipe Msg.lvclass"/>
+	</Item>
 	<Item Name="Recipe Process.lvclass" Type="LVClass" URL="../Recipe Process/Recipe Process.lvclass"/>
 </Library>
