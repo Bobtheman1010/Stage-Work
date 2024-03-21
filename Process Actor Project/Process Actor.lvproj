@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="22308000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -22,7 +23,6 @@
 				<Item Name="Recipe Status.lvclass" Type="LVClass" URL="../Recipe Status/Recipe Status.lvclass"/>
 				<Item Name="Recipe.lvclass" Type="LVClass" URL="../Recipe/Recipe.lvclass"/>
 			</Item>
-			<Item Name="Recipe View.lvclass" Type="LVClass" URL="../Recipe View/Recipe View.lvclass"/>
 		</Item>
 		<Item Name="Xy Stage" Type="Folder">
 			<Item Name="Axis Objects" Type="Folder">
@@ -59,12 +59,17 @@
 			</Item>
 		</Item>
 		<Item Name="Camera View.lvclass" Type="LVClass" URL="../../Camera/Camera View/Camera View.lvclass"/>
+		<Item Name="XY Stage Class.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/View/XY Stage Class/XY Stage Class.lvclass"/>
 		<Item Name="DAQ View.lvclass" Type="LVClass" URL="../../IO Monitor/Class 3/DAQ View.lvclass"/>
+		<Item Name="Recipe View.lvclass" Type="LVClass" URL="../Recipe View/Recipe View.lvclass"/>
 		<Item Name="Laser View.lvclass" Type="LVClass" URL="../../Laser/Laser View/Laser View.lvclass"/>
 		<Item Name="Launcher_Process Actor.vi" Type="VI" URL="../Launcher_Process Actor.vi"/>
 		<Item Name="Prep HW Components.vi" Type="VI" URL="../Prep HW Components.vi"/>
 		<Item Name="Recipe Comps.ctl" Type="VI" URL="../Recipe Comps.ctl"/>
 		<Item Name="XY Stage.ini" Type="Document" URL="../../XY Stage/XY Stage.ini"/>
+		<Item Name="Camera.ini" Type="Document" URL="../../Camera/Camera.ini"/>
+		<Item Name="IO Monitor.ini" Type="Document" URL="../../IO Monitor/IO Monitor.ini"/>
+		<Item Name="Laser.ini" Type="Document" URL="../../Laser/Laser.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="1D Array to String__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/1D Array to String__ogtk.vi"/>
@@ -544,7 +549,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Update XY Graph.vi" Type="VI" URL="../../XY Stage/Process Actor/View/Update XY Graph.vi"/>
-			<Item Name="XY Stage Class.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/View/XY Stage Class/XY Stage Class.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

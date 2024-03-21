@@ -21,11 +21,13 @@
 		<Item Name="drivers" Type="Folder">
 			<Item Name="Camera Driver.lvclass" Type="LVClass" URL="../Camera Driver/Camera Driver.lvclass"/>
 			<Item Name="Imaq Camera.lvclass" Type="LVClass" URL="../imaq camera driver/Imaq Camera.lvclass"/>
+			<Item Name="Recipe Test Sim Camera Driver.lvclass" Type="LVClass" URL="../Test Recipe Sim Camera Driver/Recipe Test Sim Camera Driver.lvclass"/>
 			<Item Name="Sim Camera Driver.lvclass" Type="LVClass" URL="../Sim Camera Driver/Sim Camera Driver.lvclass"/>
 		</Item>
 		<Item Name="Factories" Type="Folder">
 			<Item Name="abstract camera driver factory.lvclass" Type="LVClass" URL="../Driver Factories/abstract camera factory/abstract camera driver factory.lvclass"/>
 			<Item Name="Imaq Camera Driver Factory.lvclass" Type="LVClass" URL="../Driver Factories/Imaq Camera Driver Factory.lvclass"/>
+			<Item Name="Recipe Test Sim Thermal Camera Factory.lvclass" Type="LVClass" URL="../Recipe Test Sim Thermal Camera Factory/Recipe Test Sim Thermal Camera Factory.lvclass"/>
 			<Item Name="SIM Thermal Camera Factory.lvclass" Type="LVClass" URL="../SIM Thermal Camera Factory/SIM Thermal Camera Factory.lvclass"/>
 		</Item>
 		<Item Name="interfaces" Type="Folder">
@@ -96,6 +98,7 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
@@ -155,6 +158,7 @@
 			<Item Name="Base.lvclass" Type="LVClass" URL="../../XY Stage/Framework/Base/Base.lvclass"/>
 			<Item Name="Interlock Q Class.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/Process Framework/Interlock Q Class/Interlock Q Class.lvclass"/>
 			<Item Name="iView.lvclass" Type="LVClass" URL="../../iView/iView/iView.lvclass"/>
+			<Item Name="Laser Driver.lvclass" Type="LVClass" URL="../../Laser/Laser Driver/Laser Driver.lvclass"/>
 			<Item Name="Load Classes.lvlib" Type="Library" URL="../../XY Stage/Framework/Load Classes.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
@@ -169,9 +173,11 @@
 			<Item Name="Process State Data.lvclass" Type="LVClass" URL="../../XY Stage/Process Actor/Process Framework/Process State Data/Process State Data.lvclass"/>
 			<Item Name="Read Configs Sections.lvlib" Type="Library" URL="../../XY Stage/Framework/Read Configs/Read Configs Sections.lvlib"/>
 			<Item Name="Read Write Class Config Data.lvlib" Type="Library" URL="../../XY Stage/Framework/Read Write Config Data/Read Write Class Config Data.lvlib"/>
+			<Item Name="Sim Laser Driver.lvclass" Type="LVClass" URL="../../Laser/Sim Laser Driver/Sim Laser Driver.lvclass"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Test Station SIM Laser Driver.lvclass" Type="LVClass" URL="../../Laser/Test Station SIM Laser Driver/Test Station SIM Laser Driver.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

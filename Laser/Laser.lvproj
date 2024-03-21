@@ -20,16 +20,18 @@
 		<Item Name="Driver" Type="Folder">
 			<Item Name="Laser Driver.lvclass" Type="LVClass" URL="../Laser Driver/Laser Driver.lvclass"/>
 			<Item Name="Sim Laser Driver.lvclass" Type="LVClass" URL="../Sim Laser Driver/Sim Laser Driver.lvclass"/>
+			<Item Name="Test Station SIM Laser Driver.lvclass" Type="LVClass" URL="../Test Station SIM Laser Driver/Test Station SIM Laser Driver.lvclass"/>
 		</Item>
 		<Item Name="Factories" Type="Folder">
 			<Item Name="abstract laser driver factory.lvclass" Type="LVClass" URL="../abstract laser driver factory/abstract laser driver factory.lvclass"/>
 			<Item Name="Sim Laser Factory.lvclass" Type="LVClass" URL="../Sim Laser Factory/Sim Laser Factory.lvclass"/>
+			<Item Name="Test Station SIM LASER Factory.lvclass" Type="LVClass" URL="../Test Station SIM LASER Factory/Test Station SIM LASER Factory.lvclass"/>
 		</Item>
 		<Item Name="Get Laser Status.lvclass" Type="LVClass" URL="../Get Laser Status/Get Laser Status.lvclass"/>
 		<Item Name="Laser.lvclass" Type="LVClass" URL="../Laser API/Laser.lvclass"/>
+		<Item Name="Laser View.lvclass" Type="LVClass" URL="../Laser View/Laser View.lvclass"/>
 		<Item Name="Laser API.lvclass" Type="LVClass" URL="../Laser Controller api/Laser API.lvclass"/>
 		<Item Name="Laser TestBed.vi" Type="VI" URL="../Laser TestBed.vi"/>
-		<Item Name="Laser View.lvclass" Type="LVClass" URL="../Laser View/Laser View.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
